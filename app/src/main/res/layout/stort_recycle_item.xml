@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/mStort_Rv_itemImg"
+        android:layout_width="@dimen/x150"
+        android:layout_height="@dimen/x150"
+        android:layout_weight="0.01" />
+
+    <TextView
+        android:id="@+id/mStort_Rv_itemTxt"
+        android:layout_marginTop="@dimen/x6"
+        android:gravity="center"
+        android:layout_width="@dimen/x150"
+        android:layout_height="wrap_content"
+        android:text="大衣/风衣"
+        android:textColor="#f000"
+        />
+</LinearLayout>
