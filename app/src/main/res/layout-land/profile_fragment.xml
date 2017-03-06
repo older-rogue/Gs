@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="我的三福"
-            android:layout_marginLeft="440px"
+            android:layout_marginLeft="840px"
             android:layout_gravity="center"
             android:textSize="17sp"
             android:textColor="#000"
@@ -25,11 +25,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="设置"
-            android:layout_marginLeft="300px"
+            android:layout_marginLeft="700px"
             android:textSize="17sp"
             android:layout_gravity="center"
             android:textColor="#f07"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="15dp"
             />
 
     </LinearLayout>
