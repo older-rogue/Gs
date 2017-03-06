@@ -14,6 +14,11 @@
         android:layout_weight="1"
         >
     </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e8e8e8"
+        />
     <RadioGroup
         android:id="@+id/main_group"
         android:layout_width="match_parent"
@@ -35,19 +40,19 @@
             style="@style/MyradioButton"
             />
         <RadioButton
-            android:id="@+id/main_rb4"
+            android:id="@+id/main_rb2"
             android:drawableTop="@drawable/select"
             android:text="分类"
             style="@style/MyradioButton"
             />
         <RadioButton
-            android:id="@+id/main_rb2"
+            android:id="@+id/main_rb3"
             android:text="发现"
             android:drawableTop="@drawable/gift"
             style="@style/MyradioButton"
             />
         <RadioButton
-            android:id="@+id/main_rb3"
+            android:id="@+id/main_rb4"
             android:drawableTop="@drawable/mall"
             android:text="购物车"
             style="@style/MyradioButton"
